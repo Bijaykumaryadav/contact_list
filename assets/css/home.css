@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+#list{
+    list-style: none;
+}
+#list li{
+    text-align: center;
+    color: white;
+    display: in;
+}
+#list li p{
+    justify-content: space-around;
+    display: inline-block;
+}
+div{
+    /* background-color: rgba(62, 62, 249, 0.58); */
+    margin: 0px 25% 0px 25%;
+    justify-items: center;
+}
+#contact{
+    background-color: rgba(62, 62, 249, 0.58); 
+}
