@@ -1,29 +1,55 @@
-body{
+body {
     margin: 0;
     font-family: sans-serif;
 }
-#page-heading{
+
+#page-heading {
     text-align: center;
     margin-top: 25px;
     color: grey;
 }
-#list{
+
+#list {
     list-style: none;
 }
-#list li{
+
+#list li {
     text-align: center;
     color: white;
-    display: in;
+    display:block;
 }
-#list li p{
-    justify-content: space-around;
+
+#list li p {
     display: inline-block;
+    justify-content: space-between;
 }
-div{
-    /* background-color: rgba(62, 62, 249, 0.58); */
-    margin: 0px 25% 0px 25%;
-    justify-items: center;
+.details{
+    background-color: rgba(62, 62, 249, 0.58);
+    margin: 0% 25% 0% 25%;
+    margin-bottom: 2px;
+    
 }
-#contact{
-    background-color: rgba(62, 62, 249, 0.58); 
+div:hover{
+    color: grey;
+}
+#form {
+    text-align: center; /* Center-align the form content */
+}
+
+#form input {
+    display:block;
+    margin: 10px auto; /* Auto margin to center the input elements */
+}
+
+#form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#form button:hover {
+    background-color: #45a049;
 }
